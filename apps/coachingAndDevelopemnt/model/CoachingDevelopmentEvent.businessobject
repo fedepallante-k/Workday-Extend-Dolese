@@ -1,0 +1,184 @@
+{
+  "id": 2,
+  "name": "CoachingDevelopmentEvent",
+  "label": "Coaching Development Event",
+  "defaultSecurityDomains": [
+    "ManageCoachingandDevelopmentEvent",
+    "ReportsCoachingandDevelopmentEvent"
+  ],
+  "defaultCollection": {
+    "name": "coachingDevelopmentEvents",
+    "label": "Coaching Development Events"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "employee",
+      "label": "Employee",
+      "type": "SINGLE_INSTANCE",
+      "useForDisplay": false,
+      "target": "WORKER",
+      "secureByTarget": true
+    },
+    {
+      "id": 2,
+      "name": "eventDate",
+      "label": "Event Date",
+      "type": "DATE",
+      "precision": "DAY"
+    },
+    {
+      "id": 3,
+      "name": "category",
+      "label": "Category",
+      "type": "TEXT"
+    },
+    {
+      "id": 4,
+      "name": "level",
+      "label": "Level",
+      "type": "TEXT"
+    },
+    {
+      "id": 5,
+      "name": "detailedExplanation",
+      "label": "Detailed Explanation",
+      "type": "TEXT",
+      "isReferenceId": false
+    },
+    {
+      "id": 6,
+      "name": "expectations",
+      "label": "Expectations",
+      "type": "TEXT"
+    },
+    {
+      "id": 7,
+      "name": "eventNumber",
+      "label": "Event Number",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 8,
+      "name": "behaviour",
+      "label": "Behaviour",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 9,
+      "name": "score",
+      "label": "Score",
+      "type": "INTEGER",
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 10,
+      "name": "comments",
+      "label": "Comments",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 11,
+      "name": "employeeResponse",
+      "label": "Employee Response",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 12,
+      "name": "eventStatus",
+      "label": "Event Status",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 13,
+      "name": "discussionDate",
+      "label": "Discussion Date",
+      "type": "DATE",
+      "isPurgeable": false,
+      "enableIndex": false,
+      "precision": "DAY"
+    },
+    {
+      "id": 14,
+      "name": "dmlAbsenceDate",
+      "label": "DML Absence Date",
+      "type": "DATE",
+      "isPurgeable": false,
+      "enableIndex": false,
+      "precision": "DAY"
+    },
+    {
+      "id": 15,
+      "name": "numberOfHours",
+      "label": "Number Of Hours",
+      "type": "INTEGER"
+    },
+    {
+      "id": 16,
+      "name": "actionPlan",
+      "label": "Action Plan",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 17,
+      "name": "discussionEmployeeResponse",
+      "label": "Discussion Employee Response",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 18,
+      "name": "acknowledge",
+      "label": "Acknowledge",
+      "type": "BOOLEAN",
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 19,
+      "name": "ackComments",
+      "label": "Ack Comments",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": false,
+      "isPurgeable": false,
+      "enableIndex": false
+    },
+    {
+      "id": 20,
+      "name": "approvalRequired",
+      "label": "Approval Required",
+      "type": "BOOLEAN",
+      "isPurgeable": false,
+      "enableIndex": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 1,
+  "name": "CoachingDevelopmentAttributes",
+  "label": "Coaching Development Attributes",
+  "defaultSecurityDomains": [
+    "SetupCoachingandDevelopmentAttributes"
+  ],
+  "defaultCollection": {
+    "name": "coachingDevelopmentAttributeses",
+    "label": "Coaching Development Attributeses"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "area",
+      "label": "Area",
+      "type": "TEXT"
+    },
+    {
+      "id": 2,
+      "name": "value",
+      "label": "Value",
+      "type": "TEXT",
+      "isReferenceId": false,
+      "useForDisplay": true
+    },
+    {
+      "id": 3,
+      "name": "internalValue",
+      "label": "Internal Value",
+      "type": "TEXT",
+      "isReferenceId": true,
+      "useForDisplay": false
+    },
+    {
+      "id": 4,
+      "name": "inactive",
+      "label": "Inactive",
+      "type": "BOOLEAN"
+    }
+  ]
+}

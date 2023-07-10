@@ -1,0 +1,21 @@
+{
+  "id": "coachingAndDevelopemnt",
+  "languages": [
+    {
+      "code": "en-US",
+      "description": "English"
+    }
+  ],
+  "siteAuth": {
+    "authTypes": [
+      {
+        "scheme": "SSO",
+        "id": "sso"
+      }
+    ]
+  },
+  "siteId": "coachingAndDevelopemnt",
+  "cdnEnabled": true,
+  "siteProperties": [ ],
+  "applicationId": "coachingAndDevelopemnt"
+}

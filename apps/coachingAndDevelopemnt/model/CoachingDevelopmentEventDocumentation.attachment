@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "name": "CoachingDevelopmentEventDocumentation",
+  "label": "Coaching Development Event Documentation",
+  "defaultSecurityDomains": [
+    "ManageCoachingandDevelopmentEvent",
+    "ReportsCoachingandDevelopmentEvent"
+  ],
+  "defaultCollection": {
+    "name": "coachingDevelopmentEventDocumentations",
+    "label": "Coaching Development Event Documentations"
+  },
+  "fields": [
+    {
+      "id": 1,
+      "name": "event",
+      "label": "Event",
+      "type": "SINGLE_INSTANCE",
+      "target": "CoachingDevelopmentEvent"
+    },
+    {
+      "id": 2,
+      "name": "uploadedBy",
+      "label": "Uploaded By",
+      "type": "SINGLE_INSTANCE",
+      "target": "WORKER",
+      "secureByTarget": false
+    },
+    {
+      "id": 3,
+      "name": "updaloadDate",
+      "label": "Updaload Date",
+      "type": "DATE",
+      "precision": "SECOND"
+    }
+  ]
+}
